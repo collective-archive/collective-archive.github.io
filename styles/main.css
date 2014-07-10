@@ -1,3 +1,20 @@
+.tumblr_posts {
+  background-color: #eeeeee; }
+
+.tumblr_post {
+  float: left;
+  width: 290px;
+  margin-right: 20px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); }
+
+.tumblr_text {
+  padding: 20px; }
+  .tumblr_text img {
+    height: 250px;
+    width: 250px; }
+
 body {
   font-family: 'Helvetica Neue'; }
 
