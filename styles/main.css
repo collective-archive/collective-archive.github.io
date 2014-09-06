@@ -1,9 +1,6 @@
 body {
   font-family: 'Helvetica Neue'; }
 
-.navbar-default {
-  background-color: #fff; }
-
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -21,18 +18,6 @@ body {
   /* Set the fixed height of the footer here */
   height: 100px;
   background-color: #000; }
-
-.displayName {
-  font-size: 1.5em;
-  font-family: 'Helvetica Neue';
-  /*text-transform: uppercase;  */ }
-
-.entity {
-  font-size: 1.2em;
-  color: #333 !important;
-  margin-top: 0px;
-  font-family: 'Helvetica Neue';
-  font-weight: normal; }
 
 h1 {
   font-size: 28px; }
@@ -57,9 +42,6 @@ a.muted-link:hover, a.muted-link:active {
 .btn-default {
   border-color: #e7e7e7; }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background-color: transparent; }
-
 .search {
   color: #999; }
 
@@ -73,8 +55,27 @@ a.muted-link:hover, a.muted-link:active {
 .form-control {
   border-color: #e7e7e7; }
 
+.navbar-default {
+  background-color: #fff; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent; }
+
 .navbar {
   margin-bottom: 40px; }
+
+.artwork-title {
+  font-size: 1.5em;
+  font-family: 'Helvetica Neue';
+  /*text-transform: uppercase;  */ }
+
+.artist-name {
+  margin-bottom: 2em;
+  font-size: 1.2em;
+  color: #333 !important;
+  margin-top: 0px;
+  font-family: 'Helvetica Neue';
+  font-weight: normal; }
 
 .person-attributes {
   border-left: 1px solid; }
