@@ -96,3 +96,13 @@ a.muted-link:hover, a.muted-link:active {
   .tumblr_text img {
     height: 250px;
     width: 250px; }
+
+.image-carousel {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%; }
+  .image-carousel img {
+    margin-left: auto;
+    margin-right: auto; }
