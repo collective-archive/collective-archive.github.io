@@ -103,14 +103,15 @@ a.muted-link:hover, a.muted-link:active {
   margin-right: auto;
   width: 80%;
   height: 80%; }
-  .image-carousel .image-carousel-prev, .image-carousel .image-carousel-next {
+  .image-carousel .image-carousel-button {
+    display: none;
     position: absolute;
     font-size: 0;
     border: 0;
     outline: 0;
     background: transparent;
     z-index: 100; }
-    .image-carousel .image-carousel-prev:before, .image-carousel .image-carousel-next:before {
+    .image-carousel .image-carousel-button:before {
       font-family: 'slick';
       font-size: 20px;
       line-height: 1;

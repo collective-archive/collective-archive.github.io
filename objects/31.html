@@ -65,8 +65,8 @@
       <div class="row">
   <div class="col-sm-6 col-md-8 text-center">
     <div class="image-carousel">
-  <button type="button" class="image-carousel-prev">Previous</button>
-  <button type="button" class="image-carousel-next">Next</button>
+  <button type="button" class="image-carousel-button image-carousel-prev">Previous</button>
+  <button type="button" class="image-carousel-button image-carousel-next">Next</button>
   
     <div>
       <img  src='http://archive.collectivearchivepgh.org/media/collectiveaccess/images/0/43382_ca_object_representations_media_26_medium.jpg' alt='26'/>
@@ -131,15 +131,8 @@
 
     <script type="text/javascript">
       $(document).ready(function(){
-        $('.image-carousel').slick({
-          arrows: true,
-          dots: true,
-          prevArrow: '.image-carousel-prev',
-          nextArrow: '.image-carousel-next'
-        });
-
+        ImageCarousel.init();
         document.getElementById('sm-twitter').dataset.via = document.URL;
-
         var smFacebook = document.getElementById('sm-facebook');
         smFacebook.href = "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL;
       });
