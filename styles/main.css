@@ -80,6 +80,10 @@ a.muted-link:hover, a.muted-link:active {
 .person-attributes {
   border-left: 1px solid; }
 
+.relationship img {
+  max-width: 10em;
+  max-height: 10em; }
+
 .tumblr_posts {
   background-color: #eeeeee; }
 
