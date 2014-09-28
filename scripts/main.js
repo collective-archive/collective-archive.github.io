@@ -37,3 +37,11 @@ window.ImageCarousel = function() {
     }
   }
 }();
+
+window.Tabs = function() {
+  return {
+    selectFirstTab: function() {
+      $('.nav-tabs a:first').tab('show');
+    }
+  };
+}();

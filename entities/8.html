@@ -91,8 +91,17 @@
   </div>
 </div>
 
+<div class="extra-information">
+  <ul class="nav nav-tabs" role="tablist">
+    
+      <li><a href="#relationships" role="tab" data-toggle="tab">Related</a></li>
+    
+  </ul>
 
-  
+  <div class="tab-content">
+    
+      <div class="tab-pane" id="relationships">
+        
   
     <div class="media relationship">
       <a class="pull-left" href="/objects/19">
@@ -104,17 +113,19 @@
           <h4 class="media-heading">Seth Clark Interview</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-          <a href='/entities/8'>Seth Clark</a>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+            <a href='/entities/8'>Seth Clark</a>
 
-          
-        </h2>
+            
+          </span>
 
-        <p> before May 13 2013 CE </p>
-        <p>      </p>
-        <p>      </p>
-        <p>    </p>
+          <p> before May 13 2013 CE </p>
+          <p>      </p>
+          <p>      </p>
+          <p>    </p>
+        </div>
 
       </div>
     </div>
@@ -131,14 +142,16 @@
           <h4 class="media-heading">Seth Clark promotional card</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-        </h2>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+          </span>
 
-        <p> circa 2014 </p>
-        <p> fliers     </p>
-        <p>      </p>
-        <p>    </p>
+          <p> circa 2014 </p>
+          <p> fliers     </p>
+          <p>      </p>
+          <p>    </p>
+        </div>
 
       </div>
     </div>
@@ -155,17 +168,19 @@
           <h4 class="media-heading">Open Studios May 2014 digital flier</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-          <a href='/entities/8'>Seth Clark</a>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+            <a href='/entities/8'>Seth Clark</a>
 
-          
-        </h2>
+            
+          </span>
 
-        <p> circa March 27 2014 </p>
-        <p> digital images     </p>
-        <p>      </p>
-        <p>    </p>
+          <p> circa March 27 2014 </p>
+          <p> digital images     </p>
+          <p>      </p>
+          <p>    </p>
+        </div>
 
       </div>
     </div>
@@ -182,21 +197,26 @@
           <h4 class="media-heading">Ryan Lammie</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-        </h2>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+          </span>
 
-        <p>  </p>
-        <p>      </p>
-        <p>      </p>
-        <p>    </p>
+          <p>  </p>
+          <p>      </p>
+          <p>      </p>
+          <p>    </p>
+        </div>
 
       </div>
     </div>
   
 
 
-
+      </div>
+    
+  </div>
+</div>
 
     </div>
 
@@ -223,6 +243,7 @@
     <script type="text/javascript">
       $(document).ready(function(){
         ImageCarousel.init();
+        Tabs.selectFirstTab();
         $('#sm-twitter').data('via', document.URL);
         $('#sm-facebook').attr('href', "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL);
       });

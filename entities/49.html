@@ -91,8 +91,17 @@
   </div>
 </div>
 
+<div class="extra-information">
+  <ul class="nav nav-tabs" role="tablist">
+    
+      <li><a href="#relationships" role="tab" data-toggle="tab">Related</a></li>
+    
+  </ul>
 
-  
+  <div class="tab-content">
+    
+      <div class="tab-pane" id="relationships">
+        
   
     <div class="media relationship">
       <a class="pull-left" href="/objects/70">
@@ -104,17 +113,19 @@
           <h4 class="media-heading">CSA PGH Collector &amp; Artist Panel Discussion poster</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-          <a href='/entities/49'>Corey Escoto</a>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+            <a href='/entities/49'>Corey Escoto</a>
 
-          
-        </h2>
+            
+          </span>
 
-        <p> circa August 2014 </p>
-        <p> posters     </p>
-        <p>      </p>
-        <p>    </p>
+          <p> circa August 2014 </p>
+          <p> posters     </p>
+          <p>      </p>
+          <p>    </p>
+        </div>
 
       </div>
     </div>
@@ -131,24 +142,29 @@
           <h4 class="media-heading">CSA PGH Collector &amp; Artist Panel Discussion poster</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-          <a href='/entities/49'>Corey Escoto</a>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+            <a href='/entities/49'>Corey Escoto</a>
 
-          
-        </h2>
+            
+          </span>
 
-        <p> circa August 2014 </p>
-        <p> posters     </p>
-        <p>      </p>
-        <p>    </p>
+          <p> circa August 2014 </p>
+          <p> posters     </p>
+          <p>      </p>
+          <p>    </p>
+        </div>
 
       </div>
     </div>
   
 
 
-
+      </div>
+    
+  </div>
+</div>
 
     </div>
 
@@ -175,6 +191,7 @@
     <script type="text/javascript">
       $(document).ready(function(){
         ImageCarousel.init();
+        Tabs.selectFirstTab();
         $('#sm-twitter').data('via', document.URL);
         $('#sm-facebook').attr('href', "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL);
       });

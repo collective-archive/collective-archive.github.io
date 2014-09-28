@@ -100,9 +100,23 @@
     </div>
   </div>
 </div>
-<hr />
-<div class="row">
-  <div class="col-xs-12">
+
+<div class="extra-information">
+  <ul class="nav nav-tabs" role="tablist">
+    
+
+    
+      <li><a href="#description" role="tab" data-toggle="tab">Description</a></li>
+    
+  </ul>
+
+  <div class="tab-content">
+    
+
+    
+      <div class="tab-pane" id="description">
+        <p> From the wall label, when exhibited at the 103rd Associated Artists of Pittsburgh Annual at the Westmoreland Museum of Art: &quot;I had a dream about flipping a coin up American Flag Mountain (12,713 ft/3,875 m), so I got up at 5 am and started writing. Two weeks later I went to Colorado. I was allowing the mountain to feed my curiosity for freedom and adventure. I felt intimidated by its enormous presence. I was searching inside my mind. I was looking for balance. I was looking for purpose. I wasn&#x27;t going back. 38° 55&#x27; 57.8676&quot; N 106° 43&#x27; 5.1672&quot; W.&quot; </p>
+      </div>
     
   </div>
 </div>
@@ -132,6 +146,7 @@
     <script type="text/javascript">
       $(document).ready(function(){
         ImageCarousel.init();
+        Tabs.selectFirstTab();
         $('#sm-twitter').data('via', document.URL);
         $('#sm-facebook').attr('href', "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL);
       });

@@ -97,11 +97,22 @@
     </div>
   </div>
 </div>
-<hr />
-<div class="row">
-  <div class="col-xs-12">
+
+<div class="extra-information">
+  <ul class="nav nav-tabs" role="tablist">
     
-      
+      <li><a href="#relationships" role="tab" data-toggle="tab">Related</a></li>
+    
+
+    
+      <li><a href="#description" role="tab" data-toggle="tab">Description</a></li>
+    
+  </ul>
+
+  <div class="tab-content">
+    
+      <div class="tab-pane" id="relationships">
+        
   
     <div class="media relationship">
       <a class="pull-left" href="/entities/56">
@@ -113,14 +124,16 @@
           <h4 class="media-heading">Box Heart Gallery</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-        </h2>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+          </span>
 
-        <p>  </p>
-        <p>      </p>
-        <p>      </p>
-        <p>    </p>
+          <p>  </p>
+          <p>      </p>
+          <p>      </p>
+          <p>    </p>
+        </div>
 
       </div>
     </div>
@@ -137,20 +150,30 @@
           <h4 class="media-heading">Box Heart Gallery</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-        </h2>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+          </span>
 
-        <p>  </p>
-        <p>      </p>
-        <p>      </p>
-        <p>    </p>
+          <p>  </p>
+          <p>      </p>
+          <p>      </p>
+          <p>    </p>
+        </div>
 
       </div>
     </div>
   
 
 
+      </div>
+    
+
+    
+      <div class="tab-pane" id="description">
+        <p> Artists included  Melissa Kuntz, Cara Livorio, Mark Loebach,
+Daria Sandburg, and Jennipher Satterly. The opening reception was held Saturday, May 24, from 5-9 pm. </p>
+      </div>
     
   </div>
 </div>
@@ -180,6 +203,7 @@
     <script type="text/javascript">
       $(document).ready(function(){
         ImageCarousel.init();
+        Tabs.selectFirstTab();
         $('#sm-twitter').data('via', document.URL);
         $('#sm-facebook').attr('href', "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL);
       });

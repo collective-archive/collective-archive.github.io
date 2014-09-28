@@ -91,8 +91,17 @@
   </div>
 </div>
 
+<div class="extra-information">
+  <ul class="nav nav-tabs" role="tablist">
+    
+      <li><a href="#relationships" role="tab" data-toggle="tab">Related</a></li>
+    
+  </ul>
 
-  
+  <div class="tab-content">
+    
+      <div class="tab-pane" id="relationships">
+        
   
     <div class="media relationship">
       <a class="pull-left" href="/objects/43">
@@ -104,17 +113,19 @@
           <h4 class="media-heading">Pile II</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-          <a href='/entities/32'>Kara Skylling</a>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+            <a href='/entities/32'>Kara Skylling</a>
 
-          
-        </h2>
+            
+          </span>
 
-        <p> 2014 </p>
-        <p> paintings     </p>
-        <p> graphite and watercolor on paper     </p>
-        <p> 14 x 14 inches   </p>
+          <p> 2014 </p>
+          <p> paintings     </p>
+          <p> graphite and watercolor on paper     </p>
+          <p> 14 x 14 inches   </p>
+        </div>
 
       </div>
     </div>
@@ -131,24 +142,29 @@
           <h4 class="media-heading">Pile II</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-          <a href='/entities/32'>Kara Skylling</a>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+            <a href='/entities/32'>Kara Skylling</a>
 
-          
-        </h2>
+            
+          </span>
 
-        <p> 2014 </p>
-        <p> paintings     </p>
-        <p> graphite and watercolor on paper     </p>
-        <p> 14 x 14 inches   </p>
+          <p> 2014 </p>
+          <p> paintings     </p>
+          <p> graphite and watercolor on paper     </p>
+          <p> 14 x 14 inches   </p>
+        </div>
 
       </div>
     </div>
   
 
 
-
+      </div>
+    
+  </div>
+</div>
 
     </div>
 
@@ -175,6 +191,7 @@
     <script type="text/javascript">
       $(document).ready(function(){
         ImageCarousel.init();
+        Tabs.selectFirstTab();
         $('#sm-twitter').data('via', document.URL);
         $('#sm-facebook').attr('href', "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL);
       });

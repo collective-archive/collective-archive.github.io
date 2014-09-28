@@ -77,12 +77,20 @@ a.muted-link:hover, a.muted-link:active {
   font-family: 'Helvetica Neue';
   font-weight: normal; }
 
+.extra-information {
+  margin-top: 2em; }
+
+.tab-content {
+  margin-top: 1.2em; }
+
 .person-attributes {
   border-left: 1px solid; }
 
 .relationship img {
   max-width: 10em;
   max-height: 10em; }
+.relationship p {
+  margin: 0; }
 
 .tumblr_posts {
   background-color: #eeeeee; }

@@ -91,8 +91,17 @@
   </div>
 </div>
 
+<div class="extra-information">
+  <ul class="nav nav-tabs" role="tablist">
+    
+      <li><a href="#relationships" role="tab" data-toggle="tab">Related</a></li>
+    
+  </ul>
 
-  
+  <div class="tab-content">
+    
+      <div class="tab-pane" id="relationships">
+        
   
     <div class="media relationship">
       <a class="pull-left" href="/objects/9">
@@ -104,17 +113,19 @@
           <h4 class="media-heading">Fashion Show event and press! email flier</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-          <a href='/entities/10'>Revision Space</a>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+            <a href='/entities/10'>Revision Space</a>
 
-          
-        </h2>
+            
+          </span>
 
-        <p> before July 22 2014 CE </p>
-        <p> electronic mail (emails)     </p>
-        <p>      </p>
-        <p>    </p>
+          <p> before July 22 2014 CE </p>
+          <p> electronic mail (emails)     </p>
+          <p>      </p>
+          <p>    </p>
+        </div>
 
       </div>
     </div>
@@ -131,17 +142,19 @@
           <h4 class="media-heading">Revision Space newsletter</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-          <a href='/entities/10'>Revision Space</a>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+            <a href='/entities/10'>Revision Space</a>
 
-          
-        </h2>
+            
+          </span>
 
-        <p> September 12 2014 </p>
-        <p> fliers     </p>
-        <p>      </p>
-        <p>    </p>
+          <p> September 12 2014 </p>
+          <p> fliers     </p>
+          <p>      </p>
+          <p>    </p>
+        </div>
 
       </div>
     </div>
@@ -158,21 +171,26 @@
           <h4 class="media-heading">Cindy Lisica</h4>
         </a>
 
-        <h2 class="artist-name">
-          
-        </h2>
+        <div class="text-muted">
+          <span class="artist-name">
+            
+          </span>
 
-        <p>  </p>
-        <p>      </p>
-        <p>      </p>
-        <p>    </p>
+          <p>  </p>
+          <p>      </p>
+          <p>      </p>
+          <p>    </p>
+        </div>
 
       </div>
     </div>
   
 
 
-
+      </div>
+    
+  </div>
+</div>
 
     </div>
 
@@ -199,6 +217,7 @@
     <script type="text/javascript">
       $(document).ready(function(){
         ImageCarousel.init();
+        Tabs.selectFirstTab();
         $('#sm-twitter').data('via', document.URL);
         $('#sm-facebook').attr('href', "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL);
       });
