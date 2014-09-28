@@ -84,9 +84,9 @@ It aspires to challenge artists to fully immerse in the creative process and bre
       <label>URL</label> <a href='http://bunkerprojects.org'>http://bunkerprojects.org</a>
     </div>
 
-    <a class="btn btn-default" href="#top">Twitter</a>
-<a class="btn btn-default" href="#top">Facebook</a>
-<a class="btn btn-default" href="#top">Tumblr</a>
+    <a class="btn btn-default twitter" id="sm-twitter" href="http://twitter.com/share" data-count="vertical">Tweet</a>
+<a class="btn btn-default" id="sm-facebook">Facebook</a>
+<a class="btn btn-default" href="http://www.tumblr.com/share">Tumblr</a>
 
 
   </div>
@@ -124,6 +124,11 @@ It aspires to challenge artists to fully immerse in the creative process and bre
           prevArrow: '.image-carousel-prev',
           nextArrow: '.image-carousel-next'
         });
+
+        document.getElementById('sm-twitter').dataset.via = document.URL;
+
+        var smFacebook = document.getElementById('sm-facebook');
+        smFacebook.href = "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL;
       });
     </script>
   </body>
