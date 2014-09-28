@@ -30,6 +30,8 @@ window.ImageCarousel = function() {
           if(slider.slideCount > 1) {
             $('.image-carousel-button').show();
           }
+
+          $('.image-carousel img').show();
         }
       });
     }

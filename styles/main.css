@@ -128,5 +128,6 @@ a.muted-link:hover, a.muted-link:active {
     .image-carousel .image-carousel-next:before {
       content: "\2192"; }
   .image-carousel img {
+    display: none;
     margin-left: auto;
     margin-right: auto; }
