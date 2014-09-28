@@ -120,9 +120,8 @@ The Museum of Fine Arts Houston Hirsch Library and The Houston Center for Photog
     <script type="text/javascript">
       $(document).ready(function(){
         ImageCarousel.init();
-        document.getElementById('sm-twitter').dataset.via = document.URL;
-        var smFacebook = document.getElementById('sm-facebook');
-        smFacebook.href = "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL;
+        $('#sm-twitter').data('via', document.URL);
+        $('#sm-facebook').attr('href', "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL);
       });
     </script>
   </body>
