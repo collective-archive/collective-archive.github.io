@@ -98,7 +98,7 @@ From the website: &quot;Students are encouraged to write proposals to present th
       <a href="http://tumblr.com/share" class="btn-social btn-outline"><i class="fa fa-fw fa-tumblr"></i></a>
   </li>
   <li>
-      <a href="http://pinterest.com/pin/create/button/" class="btn-social btn-outline"><i class="fa fa-fw fa-pinterest"></i></a>
+      <a href="" class="btn-social social-pinterest btn-outline"><i class="fa fa-fw fa-pinterest"></i></a>
   </li>
 </ul>
 
@@ -250,6 +250,7 @@ From the website: &quot;Students are encouraged to write proposals to present th
     Tabs.selectFirstTab();
     $('.social-twitter').data('via', document.URL);
     $('.social-facebook').attr('href', "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL);
+    $('.social-pinterest').attr('href', "http://pinterest.com/pin/create/button/?url=" + document.URL + "&media=" + $('.fancybox img').attr('src'))
     $('.fancybox').fancybox({
         openEffect: 'elastic',
         closeEffect: 'elastic',
