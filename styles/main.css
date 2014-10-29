@@ -183,6 +183,8 @@ h2 {
   max-height: 10em; }
 .relationship p {
   margin: 0; }
+.relationship .media-heading {
+  display: inline; }
 
 .tumblr_posts {
   background-color: #eeeeee; }
