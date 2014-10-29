@@ -83,22 +83,23 @@ From the website: &quot;Students are encouraged to write proposals to present th
     </div>
 
     <ul class="list-inline">
-	<li>
-	    <p>Share:</p>
-	</li>
-	<li>
-	    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-	</li>
-	<li>
-	    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-	</li>
-	<li>
-	    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-tumblr"></i></a>
-	</li>
-	<li>
-	    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-pinterest"></i></a>
-	</li>
+  <li>
+      <p>Share:</p>
+  </li>
+  <li>
+      <a href="#" class="btn-social social-facebook btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+  </li>
+  <li>
+      <a href="http://twitter.com/share" class="btn-social social-twitter btn-outline" data-count="vertical"><i class="fa fa-fw fa-twitter"></i></a>
+  </li>
+  <li>
+      <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-tumblr"></i></a>
+  </li>
+  <li>
+      <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-pinterest"></i></a>
+  </li>
 </ul>
+
 
   </div>
 </div>
@@ -244,8 +245,8 @@ From the website: &quot;Students are encouraged to write proposals to present th
   $(document).ready(function(){
     ImageCarousel.init();
     Tabs.selectFirstTab();
-    $('#sm-twitter').data('via', document.URL);
-    $('#sm-facebook').attr('href', "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL);
+    $('.social-twitter').data('via', document.URL);
+    $('.social-facebook').attr('href', "http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=" + document.URL);
     $('.fancybox').fancybox({
         openEffect: 'elastic',
         closeEffect: 'elastic',
