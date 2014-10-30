@@ -209,35 +209,31 @@ h2 {
   margin-right: auto;
   width: 80%;
   height: 80%; }
-
-.image-carousel-button {
-  display: none;
-  position: absolute;
-  font-size: 0;
-  border: 0;
-  outline: 0;
-  background: transparent;
-  z-index: 100; }
-  .image-carousel-button:before {
-    font-family: 'slick';
-    font-size: 20px;
-    line-height: 1;
-    opacity: 0.75;
-    -webkit-font-smoothing: antialiased; }
-
-.image-carousel-prev {
-  top: 50%;
-  left: 10%; }
-  .image-carousel-prev:before {
-    content: "\2190"; }
-
-.image-carousel-next {
-  top: 50%;
-  right: 10%; }
-  .image-carousel-next:before {
-    content: "\2192"; }
-
-img {
-  display: none;
-  margin-left: auto;
-  margin-right: auto; }
+  .image-carousel .image-carousel-button {
+    display: none;
+    position: absolute;
+    font-size: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    z-index: 100; }
+    .image-carousel .image-carousel-button:before {
+      font-family: 'slick';
+      font-size: 20px;
+      line-height: 1;
+      opacity: 0.75;
+      -webkit-font-smoothing: antialiased; }
+  .image-carousel .image-carousel-prev {
+    top: 50%;
+    left: 10%; }
+    .image-carousel .image-carousel-prev:before {
+      content: "\2190"; }
+  .image-carousel .image-carousel-next {
+    top: 50%;
+    right: 10%; }
+    .image-carousel .image-carousel-next:before {
+      content: "\2192"; }
+  .image-carousel img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto; }
