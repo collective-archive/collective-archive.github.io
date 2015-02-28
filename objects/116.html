@@ -43,7 +43,7 @@
           <div class="input-group-btn">
             <button class="btn btn-default search" type="submit"><span class="glyphicon glyphicon-search"></span></button>
           </div>
-          <input type="text" class="form-control" placeholder="Search art and artists" name="q" id="tipue_search_input" autocomplete="off" required>
+          <input type="text" class="form-control" placeholder="Search art and artists" name="q" id="search-input" autocomplete="off" required>
         </div>
       </form>
     </div>
@@ -297,9 +297,21 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.7/slick.min.js"></script>
-<script type="text/javascript" src="/scripts/vendor/tipuesearch.min.js"></script>
+<script type="text/javascript" src="/scripts/vendor/mustache.min.js"></script>
+<script type="text/javascript" src="/scripts/vendor/URI.min.js"></script>
+<script type="text/javascript" src="/scripts/vendor/lunr.min.js"></script>
+<script type="text/javascript" src="/scripts/vendor/jquery.lunr.search.js"></script>
 <script type="text/javascript" src="/scripts/vendor/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="/scripts/main.js"></script>
+<script id="search-results-template" type="text/mustache"<script>
+  {{#entries}}
+    <article>
+      <h3>
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+    </article>
+  {{/entries}}
+</script>
 
 <script>
   (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
