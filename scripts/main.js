@@ -49,7 +49,11 @@ CA.Search = function() {
         indexUrl: '/search_index.json',
         results : '#search-results',
         entries : '.entries',
-        template: '#search-results-template'
+        render:   function(entries) {
+          return $.map(entries, function(entry) {
+            return entry.html;
+          });
+        }
       });
     }
   };

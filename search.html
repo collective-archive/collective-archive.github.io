@@ -63,34 +63,6 @@
     <div class='container'>
       
 
-<script id="search-results-template" type="text/mustache">
-  {{#entries}}
-    <article class="media search-result">
-      <div class="pull-left media-left">
-        {{#imgSrc}}
-          <a href="{{ url }}">
-            <img class="media-object" src="{{ imgSrc }}" alt="{{ title }}" />
-          </a>
-        {{/imgSrc}}
-      </div>
-
-      <div class="media-body">
-        <a href="{{ url }}">
-          <h4 class="media-heading">{{ title }}</h4>
-        </a>
-
-        <div class="description text-muted">
-          <p>
-            {{#description}}
-              {{description}}
-            {{/description}}
-          </p>
-        </div>
-      </div>
-    </article>
-  {{/entries}}
-</script>
-
 <section>
   <div class="container">
     <div class="row">
@@ -182,9 +154,7 @@
 <script type="text/javascript" src="/scripts/vendor/jquery.fancybox.pack.js"></script>
 
 
-  <script type="text/javascript" src="/scripts/vendor/mustache.min.js"></script>
-
-  <script type="text/javascript" src="/scripts/vendor/URI.min.js"></script>
+  <script type="text/javascript" src="/scripts/vendor/jquery.deparam.min.js"></script>
 
   <script type="text/javascript" src="/scripts/vendor/lunr.min.js"></script>
 
