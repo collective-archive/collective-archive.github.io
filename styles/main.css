@@ -240,3 +240,23 @@ h2 {
     display: none;
     margin-left: auto;
     margin-right: auto; }
+
+#search-results {
+  margin-left: 8em;
+  margin-right: 8em; }
+
+.search-result .media-left {
+  width: 7em;
+  height: 7em; }
+.search-result img {
+  max-width: 7em;
+  max-height: 7em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+.search-result p {
+  margin: 0; }
+.search-result .media-heading {
+  display: inline; }
+.search-result .description {
+  margin-top: 0.7em; }
