@@ -209,40 +209,43 @@ h2 {
     height: 250px;
     width: 250px; }
 
-.image-carousel {
-  position: relative;
+.carousel {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  height: 80%; }
-  .image-carousel .image-carousel-button {
-    display: none;
-    position: absolute;
-    font-size: 0;
-    border: 0;
-    outline: 0;
-    background: transparent;
-    z-index: 100; }
-    .image-carousel .image-carousel-button:before {
-      font-family: 'slick';
-      font-size: 20px;
-      line-height: 1;
-      opacity: 0.75;
-      -webkit-font-smoothing: antialiased; }
-  .image-carousel .image-carousel-prev {
-    top: 50%;
-    left: 10%; }
-    .image-carousel .image-carousel-prev:before {
-      content: "\2190"; }
-  .image-carousel .image-carousel-next {
-    top: 50%;
-    right: 10%; }
-    .image-carousel .image-carousel-next:before {
-      content: "\2192"; }
-  .image-carousel img {
-    display: none;
-    margin-left: auto;
-    margin-right: auto; }
+  width: 100%;
+  height: 450px; }
+
+.carousel-indicators {
+  bottom: 0; }
+  .carousel-indicators li {
+    border-color: #999; }
+  .carousel-indicators .active {
+    background-color: #999; }
+
+.carousel-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  line-height: 425px; }
+
+.carousel-inner .item a img {
+  display: inline-block;
+  vertical-align: middle; }
+
+.carousel-control.right {
+  background-image: none; }
+.carousel-control.left {
+  background-image: none; }
+.carousel-control .carousel-arrow {
+  color: #666666; }
+
+.ca-search-group {
+  float: right; }
+
+.ca-search-input {
+  min-width: 20em; }
 
 #search-results {
   margin-left: 8em;
